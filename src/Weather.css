@@ -1,0 +1,29 @@
+.Weather {
+  margin: 0 auto 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px 10px 10px 25px;
+  background-image: linear-gradient(rgb(156, 156, 251), white);
+  max-width: 500px;
+}
+
+.search-form {
+  margin: 10px;
+}
+.city-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+}
