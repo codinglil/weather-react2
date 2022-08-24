@@ -1,18 +1,51 @@
 .Weather {
-  margin: 0 auto 10px;
-  border: 1px solid grey;
-  border-radius: 10px;
-  padding: 20px 10px 10px 25px;
-  background-image: linear-gradient(rgb(156, 156, 251), white);
-  max-width: 500px;
+  margin: 15px auto;
+  border: 1px solid #a2a2a2;
+  border-radius: 6px;
+  box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.3);
+  padding: 30px 10px 10px 30px;
+  background-image: linear-gradient(rgb(129, 153, 250), white);
+  max-width: 580px;
 }
 
 .search-form {
-  margin: 10px;
+  margin: 10px 10px 10px 0;
+}
+.btn {
+  color: #434242;
+  font-weight: 500;
+  font-size: 18px;
 }
 .city-name {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 36px;
+  margin: 10px 0 0 0;
+  color: #434242;
+}
+
+.float-left {
+  display: inline-block;
+}
+img {
+  height: 70px;
+  width: 64px;
+  margin-right: 10px;
+  position: relative;
+  top: -18px;
+}
+.temp {
+  font-size: 60px;
+  line-height: 64px;
+  font-weight: 500;
+  margin-right: 5px;
+  color: #434242;
+}
+
+.units-c {
+  position: relative;
+  top: -32px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 ul {
@@ -23,7 +56,11 @@ ul li {
   color: grey;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 footer {
   text-align: center;
+  font-family: monospace;
+  font-size: 12px;
 }
