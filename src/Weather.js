@@ -11,7 +11,6 @@ export default function Weather() {
               type="search"
               placeholder="City name ..."
               className="form-control"
-              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -34,6 +33,7 @@ export default function Weather() {
             <img
               className="float-left"
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="weather-icon"
             />
             <div className="float-left">
               <span className="temp">31</span>

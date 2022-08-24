@@ -11,7 +11,10 @@ function App() {
           <footer>
             This project was coded by Lilia Gashin and is
             <br />
-            <a href="#" target="_blank">
+            <a
+              href="https://github.com/codinglil/weather-react-app1"
+              target="_blank"
+            >
               open-sourced on GitHub
             </a>
           </footer>
