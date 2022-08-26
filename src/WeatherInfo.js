@@ -22,7 +22,7 @@ export default function WeatherInfo(props) {
             />
             <div className="float-left">
               <span className="temp">{Math.round(props.data.temp)}</span>
-              <sapn className="units-c">⁰C</sapn>
+              <span className="units-c">⁰C</span>
             </div>
           </div>
         </div>

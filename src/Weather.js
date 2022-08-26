@@ -46,6 +46,7 @@ export default function Weather(props) {
                 placeholder="City name ..."
                 className="form-control"
                 onChange={handleCity}
+                autofocus="on"
               />
             </div>
             <div className="col-3">
