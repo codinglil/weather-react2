@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header className="App-header">
           <h1>Weather Search Engine</h1>
-          <Weather defaultCity="Washington DC" />
+          <Weather defaultCity="Fairfax" />
           <footer>
             This project was coded by Lilia Gashin and is
             <br />
