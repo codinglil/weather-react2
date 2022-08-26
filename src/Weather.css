@@ -65,7 +65,7 @@ footer {
   font-size: 12px;
 }
 
-@media (max-width: 570px) {
+/* @media (max-width: 570px) {
   img {
     height: 56px;
     width: 50px;
@@ -91,4 +91,4 @@ footer {
   .city-name {
     font-size: 26px;
   }
-}
+} */
