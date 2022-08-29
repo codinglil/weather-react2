@@ -70,7 +70,7 @@ export default function Weather(props) {
         width={80}
         color="green"
         timeout={3000}
-        className="spinner text-align-center"
+        className="spinner"
       />
     );
   }
