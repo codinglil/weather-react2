@@ -4,7 +4,7 @@
   border-radius: 6px;
   box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.3);
   padding: 30px 15px 20px 30px;
-  background-image: linear-gradient(rgb(140, 163, 252), white);
+  background-image: linear-gradient(rgb(100, 131, 252), white);
   max-width: 580px;
 }
 
@@ -23,15 +23,17 @@
   color: #525151;
 }
 
-.float-left {
+/* .float-left {
   display: inline-block;
-}
+} */
 img {
   height: 70px;
-  width: 64px;
+  width: 70px;
   margin-right: 10px;
   position: relative;
   top: -18px;
+  background-color: rgb(232, 206, 12);
+  border-radius: 50%;
 }
 .temp {
   font-size: 64px;
@@ -68,8 +70,8 @@ footer {
 @media (max-width: 570px) {
   img {
     height: 56px;
-    width: 50px;
-    top: -14px;
+    width: 52px;
+    top: -10px;
   }
   .temp {
     font-size: 36px;
