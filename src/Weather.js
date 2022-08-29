@@ -33,7 +33,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "d5ccd512023748fb33c1fa7c1f597470";
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
   }
@@ -64,17 +64,15 @@ export default function Weather(props) {
       </div>
     );
   } else {
+    search();
     return (
-      (
-        <ThreeDots
-          height={80}
-          width={80}
-          color="green"
-          timeout={3000}
-          className="spinner"
-        />
-      ),
-      search()
+      <ThreeDots
+        height={80}
+        width={80}
+        color="green"
+        timeout={3000}
+        className="spinner"
+      />
     );
   }
 }
