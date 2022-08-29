@@ -64,15 +64,17 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    search();
     return (
-      <ThreeDots
-        height={80}
-        width={80}
-        color="green"
-        timeout={3000}
-        className="spinner"
-      />
+      (
+        <ThreeDots
+          height={80}
+          width={80}
+          color="green"
+          timeout={3000}
+          className="spinner"
+        />
+      ),
+      search()
     );
   }
 }
