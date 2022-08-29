@@ -3,7 +3,7 @@ import Weather from "./Weather";
 import "./App";
 import "./Weather.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -15,7 +15,7 @@ function App() {
           <a
             href="https://github.com/codinglil/weather-react2"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>
@@ -24,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
