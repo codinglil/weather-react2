@@ -13,7 +13,7 @@ function App() {
           This project was coded by Lilia Gashin and is
           <br />
           <a
-            href="https://github.com/codinglil/weather-react-app1"
+            href="https://github.com/codinglil/weather-react2"
             target="_blank"
             rel="noreferrer"
           >
