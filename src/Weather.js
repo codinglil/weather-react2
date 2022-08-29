@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
-
 import WeatherInfo from "./WeatherInfo";
 import { ThreeDots } from "react-loader-spinner";
 
@@ -23,7 +22,7 @@ export default function Weather(props) {
     });
   }
 
-  function Search() {
+  function search() {
     const apiKey = "d5ccd512023748fb33c1fa7c1f597470";
     const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
@@ -32,7 +31,7 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    Search();
+    search();
   }
 
   function handleCity(event) {
@@ -64,7 +63,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    Search();
+    search();
     return (
       <ThreeDots
         height={80}
@@ -72,6 +71,8 @@ export default function Weather(props) {
         color="green"
         timeout={3000}
         className="spinner"
+        wrapperStyle
+        wrapperClass
       />
     );
   }
