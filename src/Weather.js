@@ -18,7 +18,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
-      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
@@ -33,7 +33,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "d5ccd512023748fb33c1fa7c1f597470";
-    let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
   }
@@ -41,7 +41,7 @@ export default function Weather(props) {
   if (weatherDetails.ready) {
     return (
       <div className="Weather">
-        <form className="search-form" onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="search-form">
           <div className="row">
             <div className="col-9">
               <input
