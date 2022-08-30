@@ -1,0 +1,27 @@
+.WeatherForecast {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 15px 15px 15px;
+}
+
+.daily-forecast-header {
+  text-align: center;
+  background-color: #efeee9;
+  opacity: 0.5;
+  font-size: 24px;
+}
+.forecast-day {
+  color: #525151;
+}
+
+.forecast-icon {
+  font-size: 30px;
+}
+
+.forecast-temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
