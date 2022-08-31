@@ -3,19 +3,22 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 600;
-  font-size: 16px;
+
   padding: 0 15px 10px 15px;
 }
 
 .daily-forecast-header {
   text-align: center;
   background-color: #efeee9;
-  opacity: 0.5;
-  font-size: 24px;
+  opacity: 0.3;
+  font-size: 22px;
   font-weight: 700;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: 15px;
 }
+
 .forecast-day {
-  color: #525151;
   font-weight: bolder;
 }
 
@@ -25,6 +28,4 @@
 }
 .forecast-img {
   width: 56px;
-  border-radius: 50%;
-  box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }

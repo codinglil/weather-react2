@@ -1,6 +1,6 @@
 .Weather {
   margin: 20px auto;
-  border: 1px solid #a2a2a2;
+  border: 1px solid #dad8d8;
   border-radius: 6px;
   box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.3);
   padding: 30px 15px 20px 30px;
@@ -9,9 +9,12 @@
 }
 .App h1 {
   text-align: center;
-  margin-top: 25px;
-  font-family: fantasy;
-  font-weight: 100;
+  font-size: 42px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: #403f3f;
+  text-shadow: 1px 4px 4px rgb(232, 92, 45);
 }
 
 .search-form {
@@ -23,11 +26,12 @@ input.form-control {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 input.btn {
-  color: #434242;
+  color: #efeee9;
   font-weight: 700;
   font-size: 17px;
   padding: 13px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(232, 92, 45) !important;
 }
 .city-name {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -43,11 +47,12 @@ input.btn {
 .WeatherInfo img.current-img {
   height: 95px;
   width: 95px;
-  margin-right: 2px;
+  margin-right: 4px;
   position: relative;
   top: -18px;
-
   border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 .temp {
   font-size: 60px;
@@ -68,12 +73,12 @@ input.btn {
 
 .units-c a {
   text-decoration: none;
-  color: rgb(237, 116, 36);
+  color: rgb(232, 92, 45);
   transition: all 150ms ease-in-out;
 }
 
 .units-c a:hover {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .WeatherInfo ul {
