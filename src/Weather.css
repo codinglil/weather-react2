@@ -4,7 +4,7 @@
   border-radius: 6px;
   box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.3);
   padding: 30px 15px 20px 30px;
-  background-image: linear-gradient(white, rgb(98, 129, 255));
+  background-image: linear-gradient(to bottom, white 25%, rgb(88, 118, 236));
   max-width: 580px;
 }
 .App h1 {
@@ -42,8 +42,8 @@ input.btn {
 }
 .WeatherInfo img.current-img {
   height: 95px;
-  width: 85px;
-  margin-right: 10px;
+  width: 95px;
+  margin-right: 2px;
   position: relative;
   top: -18px;
 
@@ -61,19 +61,19 @@ input.btn {
   position: relative;
   top: -32px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #525151;
 }
 
 .units-c a {
   text-decoration: none;
-  color: rgb(161, 6, 161);
+  color: rgb(237, 116, 36);
   transition: all 150ms ease-in-out;
 }
 
 .units-c a:hover {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .WeatherInfo ul {
@@ -96,12 +96,12 @@ footer {
 @media (max-width: 570px) {
   .WeatherInfo img.current-img {
     height: 70px;
-    width: 65px;
+    width: 70px;
     top: -10px;
   }
 
   .temp {
-    font-size: 28px;
+    font-size: 29px;
     line-height: 46px;
     font-weight: 500;
   }
