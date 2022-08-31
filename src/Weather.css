@@ -10,9 +10,8 @@
 .App h1 {
   text-align: center;
   margin-top: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: bolder;
+  font-family: fantasy;
+  font-weight: 100;
 }
 
 .search-form {
@@ -24,10 +23,11 @@ input.btn {
   font-size: 18px;
 }
 .city-name {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 36px;
   margin: 20px 0 5px 0;
   color: #525151;
+  font-weight: 700;
 }
 
 .float-left {

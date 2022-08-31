@@ -12,9 +12,11 @@
   background-color: #efeee9;
   opacity: 0.5;
   font-size: 24px;
+  font-weight: 700;
 }
 .forecast-day {
   color: #525151;
+  font-weight: bolder;
 }
 
 .forecast-icon {
