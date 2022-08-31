@@ -17,7 +17,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <div className="clearfix">
             <img
-              className="float-left"
+              className="float-left current-img"
               src={props.data.icon}
               alt="weather-icon"
             />

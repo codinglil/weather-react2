@@ -4,7 +4,7 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 16px;
-  padding: 0 15px 15px 15px;
+  padding: 0 15px 10px 15px;
 }
 
 .daily-forecast-header {
@@ -19,11 +19,12 @@
   font-weight: bolder;
 }
 
-.forecast-icon {
-  font-size: 30px;
-}
-
 .forecast-temp-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+.forecast-img {
+  width: 56px;
+  border-radius: 50%;
+  box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
