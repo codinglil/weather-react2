@@ -4,22 +4,30 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 600;
 
-  padding: 0 15px 10px 15px;
+  padding: 0 5px 10px 5px;
 }
 
 .daily-forecast-header {
   text-align: center;
-  background-color: #efeee9;
-  opacity: 0.3;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
+  opacity: 0.8;
   padding: 2px;
   border-radius: 4px;
   margin-right: 15px;
+  margin-top: 15px;
+
+  font-family: cursive;
 }
 
 .forecast-day {
   font-weight: bolder;
+  background: #efeee9;
+  opacity: 0.7;
+  border-radius: 4px;
+}
+.forecast-temp {
+  margin-bottom: 15px;
 }
 
 .forecast-temp-min {
