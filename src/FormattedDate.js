@@ -22,9 +22,17 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
 
-  return (
-    <div>
-      {day} {hours}:{minutes}
-    </div>
-  );
+  if (hours === 0 && hours < 12) {
+    return (
+      <div>
+        {day} {hours}:{minutes} am
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        {day} {hours}:{minutes} pm
+      </div>
+    );
+  }
 }
